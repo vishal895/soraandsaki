@@ -4,7 +4,11 @@
 
 @font-face {
   font-family: 'ClashDisplay-Regular';
-  src: url('./fonts/ClashDisplay-Variable.ttf')  format('ttf');
+  src: url('./fonts/ClashDisplay-Variable.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+body {
+  font-family: 'ClashDisplay-Regular', sans-serif;
 }
